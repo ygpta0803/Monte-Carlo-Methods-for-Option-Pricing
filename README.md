@@ -37,6 +37,4 @@ X_{t+\Delta t} = X_t + \mu X_t \Delta t + \sigma X_t \sqrt{\Delta t}\, Z
 where \( Z \sim \mathcal{N}(0,1) \).  
 This allows us to numerically generate asset price paths and use them for pricing and risk analysis.  
 
----
 
-## 📂 Repository Structure  
