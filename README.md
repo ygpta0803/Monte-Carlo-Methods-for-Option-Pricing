@@ -21,20 +21,6 @@ The focus of this project is on **Euler–Maruyama**, a widely used numerical ap
 
 ---
 
-## Theory Background  
-An SDE of the form:  
 
-\[
-dX_t = \mu X_t \, dt + \sigma X_t \, dW_t
-\]  
-
-is approximated under Euler–Maruyama as:  
-
-\[
-X_{t+\Delta t} = X_t + \mu X_t \Delta t + \sigma X_t \sqrt{\Delta t}\, Z
-\]  
-
-where \( Z \sim \mathcal{N}(0,1) \).  
-This allows us to numerically generate asset price paths and use them for pricing and risk analysis.  
 
 
